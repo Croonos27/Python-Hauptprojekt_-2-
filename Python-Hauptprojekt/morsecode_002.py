@@ -17,14 +17,14 @@ def main():
             length = len(text1)
             morse_code = ""
             for i in range(length):
-                print(i)
+               # print(i)
                 active = text1[i].lower()
                 if active in alphabet:
-                    print(active)
+                 #   print(active)
                     morse = alphabet[active]
                     morse_code += morse + " "
                 if active not in alphabet:
-                    print(active)
+                 #   print(active)
                     result_label.config(text=active + "kann nicht in MorseCode übersetzt werden")
                     
 

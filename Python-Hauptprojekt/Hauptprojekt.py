@@ -1,9 +1,10 @@
 import tkinter as tk
 import RechnerMitGUI
 import morsecode_002
+import caesar_cracker
 import hashlib
 
-path = r"C:\Users\hib\Desktop\Python-Hauptprojekt_(2)\Python-Hauptprojekt\Benutzer\benutzer.txt"
+path = r"C:\Users\Simon H\Documents\Python\Python-Hauptprojekt_-2-\Python-Hauptprojekt\Benutzer\benutzer.txt"
 def register():
     username = username_entry.get()
 
@@ -45,16 +46,20 @@ def open_hauptmenu_window():
     # Füge die weiteren Buttons, Labels usw. hinzu, die du benötigst
     # Beispiel:
     rechner_button = tk.Button(
-        hauptmenu_window, text='Rechner', command=RechnerMitGUI.main)
+        hauptmenu_window, text='+-Rechner', command=RechnerMitGUI.main)
     rechner_button.pack()
-
-    logout_button = tk.Button(
-        hauptmenu_window, text='Logout!', command=exit)
-    logout_button.pack()
 
     morse_button = tk.Button(
         hauptmenu_window, text='MorseCode-Decoder', command=morsecode_002.main)
     morse_button.pack()
+
+    caesar_button = tk.Button(
+        hauptmenu_window, text='Caesar-Cracker', command=caesar_cracker.main)
+    caesar_button.pack()
+
+    logout_button = tk.Button(
+        hauptmenu_window, text='Logout!', command=exit)
+    logout_button.pack()
 
 
 # GUI initialisieren

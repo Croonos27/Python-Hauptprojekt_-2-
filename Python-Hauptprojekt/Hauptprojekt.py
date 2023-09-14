@@ -4,14 +4,14 @@ import morsecode_002
 import caesar_cracker
 import hashlib
 
-path = r"C:\Users\Simon H\Documents\Python\Python-Hauptprojekt_-2-\Python-Hauptprojekt\Benutzer\benutzer.txt"
+path = r"C:\Users\Sim.Hibbeln\Documents\Python\Python-Hauptprojekt_-2-\Python-Hauptprojekt\Benutzer\benutzer.txt"
 def register():
     username = username_entry.get()
 
     password = password_entry.get()
     password_hash = hashlib.sha256(password.encode()).hexdigest()
 
-    with open(path, 'r') as file:
+    with open(path, 'a') as file:
         file.write(f'{username}:{password_hash}\n')
 
     username_entry.delete(0, 'end')
@@ -44,7 +44,6 @@ def open_hauptmenu_window():
 
     # Hier kannst du den Code für das Hauptmenü-Fenster einfügen
     # Füge die weiteren Buttons, Labels usw. hinzu, die du benötigst
-    # Beispiel:
     rechner_button = tk.Button(
         hauptmenu_window, text='+-Rechner', command=RechnerMitGUI.main)
     rechner_button.pack()

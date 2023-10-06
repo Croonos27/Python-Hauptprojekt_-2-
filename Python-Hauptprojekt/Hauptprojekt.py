@@ -1,10 +1,13 @@
 import tkinter as tk
+from pathlib import Path
 import RechnerMitGUI
 import morsecode_002
 import caesar_cracker
 import hashlib
 
-path = r"C:\Users\Sim.Hibbeln\Documents\Python\Python-Hauptprojekt_-2-\Python-Hauptprojekt\Benutzer\benutzer.txt"
+
+ordner_path = Path.joinpath(Path(__file__).parent, 'Benutzer')
+path = Path.joinpath(ordner_path, 'benutzer.txt')
 def register():
     username = username_entry.get()
 

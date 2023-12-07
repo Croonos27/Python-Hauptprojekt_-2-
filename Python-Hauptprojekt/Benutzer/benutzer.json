@@ -1,0 +1,4 @@
+{"username": "Simon", "password_hash": "a7b842b87ee73135e6e266363aa7c6f83fe07be93f9e9cfbc861e4fd17fe758b", "salt": "b'\\x97\\xbc\\x9a\\x02\\xee<\\n\\x98\\x1b\\xf0\\x8fY\\x96%T0'"}
+{"username": "root", "password_hash": "1ea71adc5402dcbfbc4ec9411eaf60c191ba4a048e9daf7873050fe43c57573e", "salt": "b'w(\\xc6%\\xb2\\xb7(\\x92\\xde(\\x97\"\\xa3\\x9c=\\xaf'"}
+{"username": "root", "password_hash": "db8f31505703cad0c52aca582cb7f813ef9c43d2f42c336a519b861f9a9d49c2", "salt": "b'\\xeb\\xe6\\x86z\\xa6H>\\xfd?\\xda\\xa5\\xc8\\xc2\\\\\\xac\\x05'"}
+{"username": "op", "password_hash": "6fc3a2220db3962a8b2fc8deed35c93be4c7915e7989d5fd925613b9ebb29623", "salt": "xiYG72uU4pyzWT1IQljmseEemzgEwfPQbt6x8IV3kw8="}

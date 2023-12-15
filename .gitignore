@@ -1,0 +1,5 @@
+# Ignoriere den .vscode-Ordner
+.vscode/
+
+# Ignoriere den gesamten Benutzer-Ordner
+Python-Hauptprojekt/Benutzer/

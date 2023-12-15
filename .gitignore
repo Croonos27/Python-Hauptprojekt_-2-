@@ -3,3 +3,7 @@
 
 # Ignoriere den gesamten Benutzer-Ordner
 Python-Hauptprojekt/Benutzer/
+
+
+# Ignoriere den __pycache__ ordner
+Python-Hauptprojekt/__pycache__/
